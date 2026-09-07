@@ -2,7 +2,7 @@
 
 Implementación de los 4 algoritmos de enrutamiento pedidos en el enunciado
 (Dijkstra, Flooding, Link State Routing y Distance Vector Routing),
-Fase 1: red simulada localmente con **sockets TCP**.
+
 
 ## Estructura del proyecto
 
@@ -83,16 +83,4 @@ sin tener que abrir una terminal por nodo:
 python test_local.py dijkstra   # o: flooding | lsr | dvr
 ```
 
-## Notas de diseño
 
-- **Modularidad**: `dijkstra.py` no sabe nada de sockets ni de mensajes — es
-  el mismo motor que usa tanto `nodo_dijkstra.py` (Dijkstra puro) como
-  `estado_enlace.py` (LSR), tal como pide el enunciado.
-- **`comun/configuracion.py`**: los archivos `topo-*` / `names-*` son el
-  formato oficial del Anexo. `pesos-*` / `puertos-*` son formatos propios,
-  usados **solo** para levantar los sockets locales de la Fase 1 (no forman
-  parte del protocolo oficial y no deben usarse para resolver el ruteo de
-  forma trivial — ver advertencia del enunciado).
-- **Fase 2 (XMPP)** — sección 3.3 del enunciado — no está incluida a
-  propósito; esta entrega cubre solo la implementación de los 4 algoritmos
-  sobre sockets (Fase 1).
