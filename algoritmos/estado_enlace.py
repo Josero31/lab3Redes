@@ -17,7 +17,7 @@ ella se deriva la Topología)". Cada nodo:
 """
 import time
 
-from nodo import BaseNode
+from algoritmos.nodo import BaseNode
 from comun import mensaje as msgutil
 from algoritmos.dijkstra import build_next_hop_table
 

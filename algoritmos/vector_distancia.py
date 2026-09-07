@@ -16,7 +16,7 @@ nodo:
 """
 import time
 
-from nodo import BaseNode
+from algoritmos.nodo import BaseNode
 from comun import mensaje as msgutil
 
 INF = float("inf")

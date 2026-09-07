@@ -7,7 +7,7 @@ reenvía a TODOS sus vecinos (excepto de vuelta al emisor original),
 usando el campo "id" del mensaje para no reenviar el mismo paquete
 más de una vez (evita tormenta infinita en grafos con ciclos).
 """
-from nodo import BaseNode
+from algoritmos.nodo import BaseNode
 from comun import mensaje as msgutil
 
 

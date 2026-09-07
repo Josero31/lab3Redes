@@ -9,7 +9,7 @@ calcula su tabla de ruteo una sola vez al arrancar (no se recalcula
 dinámicamente, tal como se indica: "no se probará directamente" en
 modo dinámico, solo se usa su motor dentro de LSR).
 """
-from nodo import BaseNode
+from algoritmos.nodo import BaseNode
 from algoritmos.dijkstra import build_next_hop_table
 
 
