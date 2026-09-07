@@ -1,0 +1,13 @@
+{"type":"names",
+ "config": {
+   "A": "a@bar.com",
+   "B": "b@bar.com",
+   "C": "c@bar.com",
+   "D": "d@bar.com",
+   "E": "e@bar.com",
+   "F": "f@bar.com",
+   "G": "g@bar.com",
+   "H": "h@bar.com",
+   "I": "i@bar.com"
+ }
+}
